@@ -1,0 +1,44 @@
+Sequence - In python sequence is generic for ordered sets.And python keep track of all elements in sequence.
+
+Dictionaries - They are mapping in python, unlike sequences which are addressed by index values, dictionaries has keys.
+
+Tuples -  Are like list but they are immutable. index and count are some common methods of tuple.
+
+Set - Unorderd collection of unique values. Set has add method as value we adding could be added to any position. 
+As set doesn't allow duplicate so if value is already there you can not be sure at what position value is, therefore set doesn't 
+support indexing and are collection of unordered values. Set provides pop can be used to read value from set.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+SECTION - 2
+* Comparison Operators
+
+* Chained Comparison Operators
+Python capabilites to write chained comparison operators give it power to write complex comparison with ease.
+  1 > 2 > 3 ( will return false )
+  1 < 2 < 3 ( will return True )
+  x < y > z ( x < y and y > z )
+  
+  --------------------------------------------------------------------------------------------------------------------------------
+  
+  SECTION - 3
+  
+ * Introduction to Python Statements
+ 
+ * if, elif, and else Statements
+ 
+ * for Loops - For loops act as iterator in python, it goes through items that are in sequence or any iterable.
+    * Tuple has a special proptery, while iterating a sequence if it contains a tuple, tuple can be unpacked with in for loop.
+       for (x,y) in [(1,2),(3,4),(5,6)]:
+          print(x + ' ' + y)
+      This is called unpacking of tuple.
+      
+* while Loops
+
+* range() 
+  range() uses generator, generator yeild 1 value at a time but doesn't store all the values in memory, so generators are memory  efficient.
+  
+* List Comprehensions 
+
+
+
